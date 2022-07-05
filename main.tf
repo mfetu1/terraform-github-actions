@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "TFC_UPDATE_MAZI"
+    organization = "sandbox-terraform-demo"
 
     workspaces {
-      name = "TFC_UPDATER_MAZ"
+      name = "demo-github-actions""
     }
   }
 }
