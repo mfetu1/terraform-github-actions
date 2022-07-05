@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "TFC_UPDATE_MAZI"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "TFC_UPDATER_MAZ"
     }
   }
 }
