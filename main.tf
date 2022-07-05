@@ -15,7 +15,7 @@ terraform {
     organization = "sandbox-terraform-demo"
 
     workspaces {
-      name = "demo-github-actions""
+      name = "demo-github-actions"
     }
   }
 }
